@@ -39,7 +39,7 @@ User.init(
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
-        // this means the passwordmust be at least 4 characters
+        // this means the password must be at least 4 characters
         len: [4],
       },
     },
